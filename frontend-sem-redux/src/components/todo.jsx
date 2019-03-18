@@ -3,14 +3,14 @@ import axios from 'axios'
 
 import PageHeader from '../template/page-header'
 import TodoForm from './todoForm'
-import TodoList from './todoList';
+import TodoList from './todoList'
 
 const URL = 'http://localhost:3003/api/todos'
 
 export default class Todo extends Component {
   constructor(props) {
     super(props)
-    this.state = { description: '', list: [] }
+    this.state = { description: '', list: [], modal: false }
 
     this.handleAdd = this.handleAdd.bind(this)
     this.handleChange = this.handleChange.bind(this)
