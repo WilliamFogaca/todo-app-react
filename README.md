@@ -8,6 +8,9 @@ Aplicação para ter uma visão geral das tarefas que tem para fazer
 Melhorar minhas habilidades com React.js e React/Redux
 
 ## Como usar
+Requisitos
+* É preciso ter o mongodb instalado em sua máquina.
+
 Clonar projeto para sua máquina
 * $ git clone https://github.com/WilliamFogaca/todo-app-react.git
 
